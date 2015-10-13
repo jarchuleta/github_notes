@@ -24,3 +24,9 @@ Merge config (kdiff3 not as good)
 [difftool "kdiff3"]
         path = c:/Program Files/KDiff3/kdiff3.exe
 ```
+
+##Get all override local
+```
+git fetch --all
+git reset --hard origin/master
+```
