@@ -30,3 +30,11 @@ Merge config (kdiff3 not as good)
 git fetch --all
 git reset --hard origin/master
 ```
+
+##Get Updates
+```
+git fetch origin
+git merge origin/master
+    or
+git merge origin/yourbranch
+```
