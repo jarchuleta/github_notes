@@ -38,3 +38,10 @@ git merge origin/master
     or
 git merge origin/yourbranch
 ```
+
+##Push to Github
+```
+git add *
+git commin -m "comment"
+git push origin master
+```
