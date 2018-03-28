@@ -4,3 +4,8 @@
 export http_proxy=wwwproxy.gov:80
 export http_proxy=wwwproxy.gov:80
 export all_proxy=wwwproxy.gov:80
+
+# create a directory alias
+shopt -s cdable_vars
+export myFold=$HOME/Files/Scripts/Main
+# then cd myFold works
